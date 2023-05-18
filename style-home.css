@@ -1,0 +1,185 @@
+html{
+    background-color: lightsteelblue;
+}
+header{
+    position: relative;
+    background-color:rgb(127, 197, 199); 
+    height: 253px;
+    width: auto;
+}
+.cabeza{
+    width: auto;
+    padding: 10px 13%; 
+    position: relative;
+    align-items: center;
+}
+
+.cabeza ul{
+    display: inline-block;
+    position:relative;
+    text-align:center;
+}
+.cabeza img{
+    position: relative;
+    bottom: 10px;
+    right: 2px;
+}
+nav{
+    position: absolute;
+    max-width: 50%;
+    left: 58.5%;
+    bottom: 51%;
+}
+nav li{ 
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20%;
+}
+nav a{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 3px 3px 3px rgba(5, 5, 5, .4);
+
+}
+nav a:hover{
+    color: aliceblue;
+    text-decoration: underline;  
+}
+
+
+
+
+
+main{
+    font-family: 'Montserrat', sans-serif;
+}
+.presentacion{
+    background: linear-gradient(rgb(228, 252, 252),rgb(168, 226, 231));
+    padding: 30px;
+    width: auto;
+    margin: 30px 30px 0 30px;
+}
+.titulo{
+    text-align:center;
+    font-size: 45px;
+    padding: 10px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 3px rgba(5, 5, 5, .4);
+}
+.presentacion strong{
+    font-weight: bold;
+}
+.presentacion em{
+    font-style: italic;
+}
+.txt{
+    font-size: 23px;
+    padding: 10px;
+}
+.mapa{
+    background: linear-gradient(rgb(168, 226, 231),rgb(121, 197, 204));
+    text-align: center;
+    margin:0 30px;
+    width: auto;
+}
+.map{
+    border-radius: 30px;
+    padding-bottom: 8px;
+}
+.ventajas{
+    background: linear-gradient(rgb(121, 197, 204),rgb(57, 157, 167));
+    color: black;
+    padding:  20px 20%;
+    display: inline-block;
+    padding-left: 10%;
+    width: auto;
+    margin: 0 30px 30px 30px;
+}
+.ventajas ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 5%;
+    padding-left: 5%;
+    font-style: italic;
+    font-size: 23px;
+}
+.ventajas li{
+    line-height: 1.5;
+}
+.vent:nth-child(2n){
+    color: aliceblue;
+}
+.vent:before{
+    content: "🞮";
+}
+.uten{
+    width: 280px;
+    float: left;
+    margin: 0 20px 20px 40px;
+    border-radius: 30px;
+    box-shadow: 30px 30px 30px rgb(158, 224, 230), -30px -30px 30px rgb(158, 224, 230);
+
+}
+.neo{
+    width: 50%;
+    margin-left: 10%;
+    border-radius: 30px;
+    padding-bottom: 5px;
+    clear: left;
+    opacity: 95%;
+    box-shadow: 30px 30px 30px rgb(168, 226, 231), -30px -30px 30px rgb(168, 226, 231);
+}
+.neo:hover {
+    opacity: 90%;
+    transition: 3s;
+}
+.video{
+    width: 560px;
+    background-color: rgb(127, 197, 199);
+    margin: 30px 25%;
+    align-items: center;
+    box-shadow: 30px 30px 30px rgb(168, 226, 231), -30px -30px 30px rgb(168, 226, 231);
+}
+
+
+
+
+
+
+
+.foooter{
+    background: url(banner/bg.jpg);
+    width: auto;
+}
+.pies{
+    padding: 0 43%;
+}
+.copright{
+    font-size: 13px;
+    color: aliceblue;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+
+@media screen and (max-width: 480px) {       
+    .caja ul{
+        display: inline-block;
+        position: relative;
+        bottom: 119px;
+        left: 13%;
+    }
+
+    .caja, .presentacion,.mapa, .ventajas, .foooter{
+        width: auto;
+    }
+}

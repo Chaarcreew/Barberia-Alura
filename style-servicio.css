@@ -1,0 +1,107 @@
+html{
+    background-color: lightsteelblue;
+}
+header{
+    background-color: rgb(127, 197, 199);
+    padding: 20% 0;
+}
+.caja{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 3px 3px 3px rgba(5, 5, 5, .4);
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right:0;
+}
+nav a{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: rgb(250, 250, 250);
+    text-decoration: underline;
+}
+
+
+
+
+main{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.servicio li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: linear-gradient(rgb(228, 252, 252),rgb(84, 201, 199));
+    border: 4px solid cadetblue;
+    border-radius: 20px;
+}
+.servicio li:hover{
+    font-size: 35px;
+}
+.servicio li h2:hover{
+    font-size: 32px;
+}
+.servicio li:hover{
+    border-color:rgb(250, 250, 250);
+}
+.servicio li:active{
+    border-color: rgb(11, 100, 155);
+}
+.servicio{
+    width: 940px;
+    margin: 0 auto;
+    padding: 80px;
+    
+}
+.servicio h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.descripcion{
+    font-size: 20px;    
+}
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background: url(banner/bg.jpg);
+    padding-top: 40px;
+}
+.copyright{
+    font-size: 13px;
+    color: rgb(250, 250, 250);
+    padding:30px;
+}
+@media screen and (max-width: 480px) {
+    .cabeza, .presentacion,.mapa, .ventajas, .foooter{
+        width: auto;
+    }
+}
