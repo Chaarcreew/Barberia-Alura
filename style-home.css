@@ -136,7 +136,7 @@ main{
     padding-bottom: 5px;
     clear: left;
     opacity: 95%;
-    box-shadow: 30px 30px 30px rgb(168, 226, 231), -30px -30px 30px rgb(168, 226, 231);
+    box-shadow: 30px 30px 30px rgb(168, 226, 231), -30px -30px 30px rgb(157, 211, 216);
 }
 .neo:hover {
     opacity: 90%;
